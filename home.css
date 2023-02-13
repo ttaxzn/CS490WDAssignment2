@@ -70,6 +70,7 @@ a{
     opacity: 1;
     display: block;
     transition: .5s ease;
+    border-radius: 5px;
 }
 .leftPost{
     display: flex;
@@ -81,6 +82,7 @@ a{
     height: 200px;
 }
 .title{
+    margin-top: 15px;
     font-weight: bold;
     font-size: 18px;
 }
@@ -88,11 +90,13 @@ a{
 .date{
     font-size: 13px;
     color: gray;
+    margin-top: 20px;
 }
 
 .text{
     font-size: 17px;
     line-height: 1.4;
+    margin-top: 20px;
 }
 
 
@@ -117,8 +121,12 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .textHoverContainer:hover .textHover {
     opacity: 1;
   }
+
+  
